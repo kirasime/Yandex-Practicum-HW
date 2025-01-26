@@ -1,3 +1,37 @@
+# Taxi Order Prediction
+
+## Project Description
+
+This project aims to solve the problem of predicting the number of taxi orders for the next hour at airports for the company **"Chyotnoye Taxi"**. The goal is to build a model based on historical taxi order data that can accurately predict the number of orders for the upcoming hour. This will help the company efficiently manage the number of drivers during peak hours.
+
+The metric for evaluating the model's performance is **RMSE** (Root Mean Squared Error). The target is to achieve an RMSE value on the test set of no more than **48**.
+
+## Data Description
+
+Taxi order data is stored in the file `taxi.csv`. The main columns in the data are:
+
+- `timestamp` — the timestamp of the order (in date and time format).
+- `num_orders` — the number of taxi orders at that specific time.
+
+The data contains information about orders at airports, which needs to be processed for further analysis and model training.
+
+## Project Instructions
+
+1. **Data Loading**: Load the data from the `taxi.csv` file, located in the `/datasets/` directory.
+
+2. **Resampling**: Resample the data to hourly intervals for analysis (resampling by one hour).
+
+3. **Data Analysis**: Perform a time series analysis to identify trends, seasonality, and other patterns.
+
+4. **Model Training**:
+   - Split the data into training and test sets (10% of the data should be the test set).
+   - Train various machine learning models with different hyperparameters.
+
+5. **Model Evaluation**: Evaluate the model on the test set and measure the RMSE metric.
+
+6. **Conclusion**: Make conclusions based on the model's results and suggest potential improvements.
+
+
 # Прогнозирование заказов такси
 
 ## Описание проекта
