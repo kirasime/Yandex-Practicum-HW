@@ -32,6 +32,12 @@ The data contains information about orders at airports, which needs to be proces
 6. **Conclusion**: Make conclusions based on the model's results and suggest potential improvements.
 
 
+
+
+
+
+
+
 # Прогнозирование заказов такси
 
 ## Описание проекта
